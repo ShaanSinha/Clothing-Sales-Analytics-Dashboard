@@ -1,115 +1,66 @@
-\# Clothing Sales Analytics Dashboard
+# Clothing Sales Analytics Dashboard
 
-
-
-\## Project Overview
+##  Project Overview
 
 This project analyzes clothing store sales data using Power BI, SQL, and Python.
 
-
-
 The dashboard provides insights into:
 
-\- Total Revenue
+- Total Revenue
+- Total Orders
+- Total Customers
+- Total Products
+- Revenue by Category
+- Revenue by City
+- Top Selling Products
 
-\- Total Orders
+##  Tools Used
 
-\- Total Customers
+- Power BI
+- SQL
+- Python
+- Excel
 
-\- Total Products
-
-\- Revenue by Category
-
-\- Revenue by City
-
-\- Top Selling Products
-
-
-
-\## Tools Used
-
-\- Power BI
-
-\- SQL
-
-\- Python
-
-\- Excel
-
-
-
-\## Dataset
+##  Dataset
 
 Dataset contains:
 
-\- Customers
+- Customers
+- Orders
+- Products
+- Sales
 
-\- Orders
+##  Dashboard Features
 
-\- Products
+- KPI Cards
+- Interactive Category Filter
+- Revenue Analysis
+- Product Performance Analysis
+- City-wise Revenue Analysis
 
-\- Sales
+##  Project Structure
 
-
-
-\## Dashboard Features
-
-\- KPI Cards
-
-\- Interactive Category Filter
-
-\- Revenue Analysis
-
-\- Product Performance Analysis
-
-\- City-wise Revenue Analysis
-
-
-
-\## Project Structure
-
-
-
-Clothing\_Sales\_Analytics\_Project/
-
+```text
+Clothing_Sales_Analytics_Project/
 │
-
 ├── PowerBI/
-
-│ └── Clothing\_Sales\_Analytics.pbix
-
+│   └── Clothing_Sales_Analytics.pbix
 │
-
 ├── Dataset/
-
-│ ├── customers.csv
-
-│ ├── orders.csv
-
-│ ├── products.csv
-
-│ └── sales.csv
-
+│   ├── customers.csv
+│   ├── orders.csv
+│   ├── products.csv
+│   └── sales.csv
 │
-
 ├── SQL/
-
-│ └── analysis\_queries.sql
-
+│   └── analysis_queries.sql
 │
-
 ├── Python/
+│   └── sales_analysis.py
+```
 
-│ └── sales\_analysis.py
+##  Key Insights
 
-
-
-
-\## Key Insights
-
-\- Women's Wear generated highest revenue.
-
-\- Delhi is the top revenue-generating city.
-
-\- Top-selling products vary by category.
-
+- Women's Wear generated highest revenue.
+- Delhi is the top revenue-generating city.
+- Top-selling products vary by category.
